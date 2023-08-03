@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+
+</head>
+
+<body>
+    <h2>This is HTML form</h2>
+    <form action="backend.php">
+        <label for="name"> Name:</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="myNo"> Regd no.:</label>
+        <div>
+            <input type="text" name="myNo" id="myNo">
+        </div>
+        <br>
+        <div>
+            College Name: <input type="text" name="college">
+        </div>
+        <br>
+        <div>
+            <label for="Branch">Branch:</label>
+            <select name="myBranch" id="Branch">
+                <option value="CSE">Computer Science & Engineering</option>
+                <option value="ME">Mechanical Engineering</option>
+                <option value="CE">Civil Engineering</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            CGPA: <input type="text" name="cgpa">
+        </div>
+        <br>
+        <div>
+           Birth Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Age: <input type="number" value="age">
+            <br>
+            Note: If you are 18 or above then only eligible....
+        </div>
+        <br>
+        <div>
+            Are you eligible? <input type="checkbox" name="eligiblity">
+        </div>
+        <br>
+        <div>
+            Email: <input type="text">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> Others <input
+                type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Experience: 0-1 Year <input type="range" name="exp"> 1-3 Years <input type="range" name="exp"> 2-5 Years
+            <input type="range" name="exp">
+        </div>
+        <br>
+        <div> Write your strength and weakness.... <br>
+            <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
